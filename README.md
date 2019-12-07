@@ -1,5 +1,5 @@
 # The Notes App
-This is an example basic express notes app.
+This is an *Express Notes App*.
 
 ## Features
 1. Containerized express, mongodb.
