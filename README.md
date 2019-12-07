@@ -34,10 +34,8 @@ To import the collection follow the next steps:
 2. Go to the the Postman folder on the root folder of the downloaded repository and select the two .json files in there
 3. Finally, choose The Notes App environment on the top left of the postman UI ![Environments](https://imgur.com/q7tCKbq.png)
 
-Now you can make request on The Personal Notes folder on left.
-
 ## Deploy
-The docker-compose up command will generate an Dockerfile file which you can use to build an image and upload to the cloud (e.g: Amazon Fargate)
+The docker-compose up command will generate a Dockerfile file which you can use to build an image and upload to the cloud (e.g: Amazon Fargate)
 ```bash
 docker build -t the-notes-app:latest .
 ```
