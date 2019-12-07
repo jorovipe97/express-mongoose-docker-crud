@@ -32,6 +32,9 @@ cd express-mongoose-docker-crud
 ```bash
 docker-compose up
 ```
+
+Note that MongoDB server is exposed to the local machine port 15000 instead of 27017 to avoid conflicts with any local mongodb server.
+
 ## Using the API
 If you want an easy way to test the API it's highly recommended to use the Postman collection I've tailored.
 
